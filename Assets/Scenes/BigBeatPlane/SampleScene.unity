@@ -278,7 +278,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -341,7 +341,7 @@ MonoBehaviour:
   veloc: 0
   entradaHorizontal: 0
   entradaVertical: 0
-  pftiro1: {fileID: 2003735906035021627, guid: ae1b93b22a3bd4049be7481bfef63c9f, type: 3}
+  pftiro: {fileID: 3497318209494869294, guid: 49c2132f40b4e2740bd276efb49ac091, type: 3}
 --- !u!212 &746230192
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746230190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -3.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -493,60 +493,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &8571797726129871773
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3720390992887873361, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3950582140887526976, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
-      propertyPath: m_Name
-      value: DisparoTriplo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: de5b75cafb6048e4fa505bc58456a991, type: 3}
